@@ -78,7 +78,7 @@ module.exports = {
   GROUP_ADMINS: process.env.GROUP_ADMINS || '',
   RENDER_NAME: (process.env.RENDER_NAME || '').trim(),
   RENDER_API_KEY: (process.env.RENDER_API_KEY || '').trim(),
-  TIMEZONE: process.env.TIMEZONE,
+  TIMEZONE: process.env.TIMEZONE || 'AFRICA/NAIROBI'
   CMD_REACTION: process.env.CMD_REACTION || 'true',
   AUTO_UPDATE: process.env.AUTO_UPDATE || 'true',
 }
